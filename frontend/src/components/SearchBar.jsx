@@ -14,7 +14,7 @@ const SearchBar = ({ setRecipes, setLoading }) => {
 
     try {
       // 🔹 Adjust BASE_URL later when backend is deployed
-      const res = await axios.get(`http://localhost:5000/api/recipes?ingredients=${query}`);
+      const res = await axios.get(`api/recipes?ingredients=${query}`);
       setRecipes(res.data);
     } catch (error) {
       console.error("Error fetching recipes:", error);
