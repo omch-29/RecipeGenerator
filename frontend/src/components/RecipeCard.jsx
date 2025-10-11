@@ -74,7 +74,7 @@ const RecipeCard = ({ recipe }) => {
               {loading ? "Loading..." : "View Recipe"}
             </button>
 
-            {/* Direct link if sourceUrl exists */}
+            {/* Direct link */}
             {recipe.sourceUrl && (
               <a
                 href={recipe.sourceUrl}

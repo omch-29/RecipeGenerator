@@ -19,25 +19,25 @@
 }
 
 .recipe-modal {
-  background-color: #ffffff;           /* clean white background */
-  color: #212529;                      /* dark readable text */
+  background-color: #ffffff;           
+  color: #212529;                      
   border-radius: 10px;
 }
 
 .recipe-modal h5,
 .recipe-modal h6 {
-  color: #111 !important;              /* darker headings */
+  color: #111 !important;             
   font-weight: 600;
 }
 
 .recipe-modal p,
 .recipe-modal li {
-  color: #333 !important;              /* ensure strong contrast for body text */
+  color: #333 !important;              
   line-height: 1.6;
 }
 
 .recipe-modal a {
-  color: #0d6efd;                      /* Bootstrap blue link */
+  color: #0d6efd;                      
   text-decoration: underline;
 }
 .recipe-modal a:hover {
