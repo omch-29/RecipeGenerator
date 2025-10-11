@@ -21,11 +21,11 @@ const RecipeCard = ({ recipe }) => {
     }
   };
 
-  // Helper: render step-by-step (analyzedInstructions is array)
+  
   const renderInstructions = (d) => {
     if (!d) return null;
 
-    // Prefer analyzedInstructions (array of steps)
+    
     if (d.analyzedInstructions && d.analyzedInstructions.length > 0) {
       return d.analyzedInstructions.map((inst, idx) => (
         <div key={idx} className="mb-3">
@@ -39,9 +39,8 @@ const RecipeCard = ({ recipe }) => {
       ));
     }
 
-    // Fallback to plain instructions string (may be HTML)
+    
     if (d.instructions) {
-      // strip simple HTML tags for safety (or render dangerously if you trust source)
       return <p>{d.instructions.replace(/<[^>]*>/g, "")}</p>;
     }
 
