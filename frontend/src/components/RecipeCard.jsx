@@ -88,7 +88,7 @@ const RecipeCard = ({ recipe }) => {
         </div>
       </div>
 
-      {/* Simple Modal */}
+      
       {showModal && details && (
         <div
           className="modal-backdrop"
