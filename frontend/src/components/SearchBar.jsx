@@ -13,7 +13,7 @@ const SearchBar = ({ setRecipes, setLoading }) => {
     setRecipes([]); // clear old results
 
     try {
-      // 🔹 Adjust BASE_URL later when backend is deployed
+    
       const res = await axios.get(`api/recipes?ingredients=${query}`);
       setRecipes(res.data);
     } catch (error) {
