@@ -10,7 +10,7 @@ const SearchBar = ({ setRecipes, setLoading }) => {
     if (!query.trim()) return;
 
     setLoading(true);
-    setRecipes([]); // clear old results
+    setRecipes([]); 
 
     try {
     
