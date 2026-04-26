@@ -44,6 +44,3 @@ function App() {
 
 export default App;
 
-
-// import react from react
-//import {usestate} from react;
