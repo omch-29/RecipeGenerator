@@ -149,3 +149,4 @@ const RecipeCard = ({ recipe }) => {
 
 export default RecipeCard;
 
+// card.jsx
