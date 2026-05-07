@@ -46,4 +46,4 @@ const SearchBar = ({ setRecipes, setLoading }) => {
 
 export default SearchBar;
 
-//searchBar
+//searchBar.jsx
