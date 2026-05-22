@@ -45,4 +45,3 @@ const SearchBar = ({ setRecipes, setLoading }) => {
 };
 
 export default SearchBar;
-//search page
