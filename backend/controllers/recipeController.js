@@ -37,7 +37,7 @@ exports.getRecipeById = async (req, res) => {
       }
     );
 
-    // response.data includes: servin
+  
     res.json(response.data);
   } catch (error) {
     console.error("Error fetching recipe info:", error.message || error);
