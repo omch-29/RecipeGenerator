@@ -37,7 +37,6 @@ exports.getRecipeById = async (req, res) => {
         },
       }
     );
-
   
     res.json(response.data);
   } catch (error) {
