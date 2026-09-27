@@ -1,1 +1,1 @@
-Random data for testing recipe recommendation based on history
+Random data for testing recipe recommendation based on history and fetching
